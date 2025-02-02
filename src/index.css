@@ -1,0 +1,729 @@
+* {
+  font-family: "Gothic A1", serif;
+  letter-spacing: 2px;
+  color: #f9f9f9;
+  transition: 0.2s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+.title {
+  font-family: "Hind Siliguri", serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.prim-red {
+  color: #ff2d2d;
+}
+
+.sec-red {
+  color: #ed2d2d;
+}
+
+.prim-black {
+  color: #363636;
+}
+
+.sec-black {
+  color: #747474;
+}
+
+/* navbar  */
+.navbar a {
+  height: auto;
+  transition: 0.2s ease;
+  color: #363636;
+  font-family: "Hind Siliguri", serif;
+}
+
+.navbar a:nth-of-type(6),
+.navbar a:nth-of-type(7),
+.navbar a:nth-of-type(8),
+.navbar a:nth-of-type(9), 
+.navbar a:nth-of-type(10) {
+  display: none;
+}
+
+.navbar a:hover, .navbar svg:hover path {
+  fill: #ed2d2d;
+  color: #ed2d2d;
+}
+
+/* home */
+.home {
+  height: 100vh;
+
+  background-image: url("./assets/5570171.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home button {
+  text-transform: uppercase;
+  background-color: #ff3333;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.158);
+  cursor: pointer;
+}
+
+.home button:hover {
+  background-color: #f32828;
+}
+
+
+/* profile */
+.profile {
+  background-color: #363636;
+}
+
+.profile div {
+  background-color: #464646;
+  border-radius: 30px;
+}
+
+/* skills */
+.skills img {
+  transition: 0.2s ease;
+}
+
+.skills img:hover {
+  -webkit-filter: drop-shadow( 4px 7px 3px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow( 4px 7px 3px rgba(0, 0, 0, 0.25));
+}
+
+/* porto */
+.porto {
+  background-color: #494949;
+  background-image: url("./assets/5570171.png");
+  background-blend-mode: exclusion ;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel {
+  border-radius: 40px;
+}
+
+.carousel-items {
+  transition: 0.2s ease;
+}
+
+.carousel p {
+  max-height: 170px;
+  overflow: scroll;
+  scrollbar-color: transparent transparent;
+}
+
+.carousel:hover {
+  cursor: default;
+}
+
+.carousel:hover .carousel-items{
+  box-shadow: rgba(0, 0, 0, 0.03) -600px 0px 100px -28px inset;
+}
+
+.porto button {
+  color: lightgrey;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.porto-img {
+  border-radius: 35px 10px 10px 35px;
+  overflow: hidden;
+  width: 350px;
+}
+
+.porto-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* contact  */
+.contact {
+  padding-left: 11vw;
+
+  background-image: url("./assets/5570172.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  
+  background-image: url("./assets/5570172.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer p {
+  color: #363636;
+  /* font-weight:600; */
+  display: flex;
+  align-items: start;
+  margin-bottom: 19px;
+}
+
+/* .footer h1 {
+  font-weight: 100;
+} */
+
+.footer div:nth-child(1) img {
+  height: 18px;
+  margin: 3px 10px;
+}
+
+.footer div:nth-child(2) a img {
+  margin-top: 5px;
+  width: 50px;
+}
+
+/* responsive */
+@media (max-width: 992px) {
+  .navbar {
+    gap: 80px;
+  }
+
+  .profile {
+    padding: 70px 80px ;
+  }
+
+  .profile div {
+    padding-right: 50px;
+  }
+  .profile h1 {
+    font-size: 38px;
+  }
+
+  .profile p {
+    font-size: 16px;
+  }
+
+  .skills {
+    padding: 90px 0;
+  }
+
+  .skills h1, .porto h1 {
+    font-size: 55px;
+  }
+
+  .skills div {
+    height: max-content;
+  }
+
+  .skills img {
+    width: 100px;
+  }
+
+  .carousel-parent {
+    width: 87vw;
+  }
+
+  .carousel > div {
+    height: 60vh;
+  }
+
+  .carousel {
+    position: relative;
+    justify-self: center;
+    max-width: 100%;
+  }
+  
+  .carousel h1 {
+    font-size: 34px;
+  }
+
+  .carousel p {
+    font-size: 15px;
+    max-height: 145px;
+  }
+
+  .porto-img {
+    min-width: 250px;
+  }
+
+  .carousel-items div:nth-of-type(2) {
+    padding: 0 32px;
+  }
+
+  .footer {
+    padding: 75px 60px;
+  }
+
+  .footer div:nth-of-type(2) {
+    margin-right: 40px;
+  }
+
+  .footer h1 {
+    font-size: 60px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    gap: 50px;
+  }
+
+  .home h1 {
+    font-size: 65px;
+  }
+
+  .home p {
+    font-size: 28px;
+  }
+
+  .home button {
+    font-size: 11px;
+  }
+
+  .profile {
+    flex-direction: column;
+    padding: 55px 50px ;
+    gap: 30px;
+  }
+
+  .profile h1 {
+    margin: 0;
+  }
+
+  .profile div {
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .profile br:only-of-type {
+    display: none;
+  }
+
+  .profile div img:nth-of-type(1) {
+    display: none;
+  }
+
+  .profile div img:nth-of-type(2) {
+    display: block;
+  }
+
+  .profile p {
+    text-align: center;
+    font-size: 16px;
+    background-color: #464646;
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+  .skills div {
+    gap: 40px;
+    padding: 0 20px;
+  }
+
+  .skills h1, .porto h1 {
+    font-size: 50px;
+  }
+
+  .skills img {
+    width: 90px;
+  }
+  
+  .carousel h1 {
+    font-size: 33px;
+    margin-bottom: 17px;
+  }
+
+  .carousel p {
+    font-size: 13px;
+    max-height: 165px;
+  }
+
+  .carousel-items a {
+    font-size: 14px;
+  }
+
+  .porto-img {
+    min-width: 220px;
+  }
+
+  .carousel-items br:first-of-type {
+    display: none;
+  }
+
+  .carousel-items div:nth-of-type(2) {
+    padding: 0 32px;
+  }
+
+  .footer {
+    padding: 75px 60px;
+  }
+
+  .footer div:nth-of-type(2) {
+    margin-right: 30px;
+  }
+
+  .footer h1 {
+    font-size: 55px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+
+  .footer div:first-of-type img {
+    width: 16px;
+    height: auto;
+  }
+
+  .footer h3 {
+    font-size: 18px;
+  }
+
+  .footer div:nth-of-type(2) img {
+    width: 13px;
+    height: auto;
+  }
+
+  .footer div:nth-of-type(2) a img {
+    width: 43px;
+    height: auto;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    gap: 60px;
+  }
+
+  .navbar a:nth-of-type(1),
+  .navbar a:nth-of-type(2),
+  .navbar a:nth-of-type(3),
+  .navbar a:nth-of-type(4), 
+  .navbar a:nth-of-type(5) {
+    display: none;
+  }
+  .navbar a:nth-of-type(6),
+  .navbar a:nth-of-type(7),
+  .navbar a:nth-of-type(8),
+  .navbar a:nth-of-type(9), 
+  .navbar a:nth-of-type(10) {
+    display: inline;
+  }
+
+  .navbar svg {
+    width: 19px;
+    height: auto;
+  }
+
+  .home h1 {
+    font-size: 58px;
+  }
+
+  .home p {
+    font-size: 27px;
+  }
+
+  .home button {
+    font-size: 10px;
+  }
+
+  .profile {
+    padding: 50px 33px ;
+    gap: 19px;
+  }
+
+  .profile h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  .profile div {
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .profile img {
+    width: 190px;
+  }
+
+  .profile br:only-of-type {
+    display: none;
+  }
+
+  .profile p {
+    font-size: 14px;
+    padding: 27px;
+    border-radius: 30px;
+  }
+
+  .skills {
+    padding: 80px 0;
+  }
+
+  .skills div {
+    gap: 40px;
+    padding: 0 15px;
+  }
+
+  .skills h1, .porto h1 {
+    font-size: 45px;
+  }
+
+  .skills img {
+    width: 80px;
+  }
+
+  .porto {
+    height: 75vh;
+    padding: 30px 0;
+  }
+
+  .carousel-parent {
+    width: 93vw;
+  }
+
+  .carousel h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .carousel p {
+    font-size: 11px;
+    max-height: 115px;
+  }
+
+  .carousel-items a {
+    font-size: 12px;
+  }
+
+  .carousel-items {
+    padding: 10px;
+  }
+
+  .carousel > div {
+    height: 48vh;
+  }
+
+  .porto-img {
+    min-width: 150px;
+  }
+
+  .porto button:nth-of-type(1) {
+    left: 0;
+  }
+
+  .porto button:nth-of-type(2) {
+    right: 0;
+  }
+
+  .carousel-items div:nth-of-type(2) {
+    padding: 0 23px;
+  }
+
+  .footer {
+    padding: 60px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacthori {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: max-content auto;
+    grid-template-rows: auto auto auto;
+  }
+
+
+  .contacthori h1, .contacthori p:nth-of-type(3) {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .footer div:nth-of-type(2) {
+    margin: 19px 0 0 0;
+  }
+
+  .footer h1 {
+    font-size: 40px;
+  }
+
+  .footer p {
+    font-size: 12px;
+    margin: 5px 5px;
+  }
+
+  .footer div:first-of-type img {
+    width: 14px;
+    height: auto;
+    margin: 0 4px;
+  }
+
+  .footer h3 {
+    display: none;
+  }
+
+  .footer div:nth-of-type(2) img {
+    display: none;
+  }
+
+  .footer div:nth-of-type(2) a img {
+    display: inline;
+    width: 40px;
+  }
+
+  .copyright {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 412px) {
+  .navbar {
+    gap: 40px;
+  }
+
+  .navbar svg {
+    width: 16px;
+  }
+
+  .home h1 {
+    font-size: 43px;
+  }
+
+  .home p {
+    font-size: 20px;
+  }
+
+  .home button {
+    font-size: 9px;
+    padding: 14px 23px;
+  }
+
+  .footer {
+    padding: 45px 0;
+
+  }
+  .footer h1 {
+    font-size: 36px;
+  }
+  .footer p {
+    font-size: 9px;
+    margin: 3px;
+  }
+
+  .footer div:nth-of-type(2) a img {
+    width: 30px;
+  }
+
+  .footer div:first-of-type img {
+    width: 9px;
+    height: auto;
+    margin: 0 3px;
+  }
+
+  .copyright {
+    font-size: 7px;
+  }
+
+  .profile {
+    padding: 45px 25px ;
+    gap: 15px;
+  }
+
+  .profile h1 {
+    font-size: 30px;
+  }
+
+  .profile img {
+    width: 170px;
+  }
+
+  .profile p {
+    font-size: 11px;
+    padding: 19px;
+  }
+
+  .skills {
+    padding: 60px 0;
+  }
+
+  .skills div {
+    gap: 38px;
+    padding: 0 23px;
+  }
+
+  .skills h1{
+    font-size: 38px;
+    padding-bottom: 5px;
+  }
+
+  .skills img {
+    width: 66px;
+  }
+
+  .porto {
+    height: 65vh;
+    padding: 35px 0;
+  }
+
+  .carousel-parent {
+    width: 94vw;
+  }
+
+  .porto button {
+    font-size: 25px;
+  }
+
+  .porto h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+
+  .carousel h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+
+  .carousel p {
+    font-size: 10px;
+    max-height: 80px;
+  }
+
+  .carousel-items a {
+    font-size: 11px;
+  }
+
+  .carousel-items {
+    padding: 8px;
+  }
+
+  .carousel > div {
+    height: 38vh;
+  }
+
+  .porto-img {
+    min-width: 110px;
+  }
+
+  .carousel-items div:nth-of-type(2) {
+    padding: 0 18px;
+  }
+}
