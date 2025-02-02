@@ -597,15 +597,15 @@ body {
 
 @media (max-width: 412px) {
   .navbar {
-    gap: 40px;
+    gap: 46px;
   }
 
   .navbar svg {
-    width: 16px;
+    width: 17.5px;
   }
 
   .home h1 {
-    font-size: 43px;
+    font-size: 46.5px;
   }
 
   .home p {
@@ -613,34 +613,8 @@ body {
   }
 
   .home button {
-    font-size: 9px;
+    font-size: 10px;
     padding: 14px 23px;
-  }
-
-  .footer {
-    padding: 45px 0;
-
-  }
-  .footer h1 {
-    font-size: 36px;
-  }
-  .footer p {
-    font-size: 9px;
-    margin: 3px;
-  }
-
-  .footer div:nth-of-type(2) a img {
-    width: 30px;
-  }
-
-  .footer div:first-of-type img {
-    width: 9px;
-    height: auto;
-    margin: 0 3px;
-  }
-
-  .copyright {
-    font-size: 7px;
   }
 
   .profile {
@@ -649,15 +623,15 @@ body {
   }
 
   .profile h1 {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .profile img {
-    width: 170px;
+    width: 172px;
   }
 
   .profile p {
-    font-size: 11px;
+    font-size: 12px;
     padding: 19px;
   }
 
@@ -671,7 +645,7 @@ body {
   }
 
   .skills h1{
-    font-size: 38px;
+    font-size: 40px;
     padding-bottom: 5px;
   }
 
@@ -680,7 +654,7 @@ body {
   }
 
   .porto {
-    height: 65vh;
+    height: 375px;
     padding: 35px 0;
   }
 
@@ -693,7 +667,7 @@ body {
   }
 
   .porto h1 {
-    font-size: 38px;
+    font-size: 40px;
     margin-bottom: 30px;
   }
 
@@ -703,12 +677,12 @@ body {
   }
 
   .carousel p {
-    font-size: 10px;
+    font-size: 11px;
     max-height: 80px;
   }
 
   .carousel-items a {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .carousel-items {
@@ -716,7 +690,7 @@ body {
   }
 
   .carousel > div {
-    height: 38vh;
+    height: 217px;
   }
 
   .porto-img {
@@ -725,5 +699,31 @@ body {
 
   .carousel-items div:nth-of-type(2) {
     padding: 0 18px;
+  }
+
+  .footer {
+    padding: 45px 0;
+
+  }
+  .footer h1 {
+    font-size: 38px;
+  }
+  .footer p {
+    font-size: 10px;
+    margin: 3px;
+  }
+
+  .footer div:nth-of-type(2) a img {
+    width: 33px;
+  }
+
+  .footer div:first-of-type img {
+    width: 10px;
+    height: auto;
+    margin: 0 3px;
+  }
+
+  .copyright {
+    font-size: 9px;
   }
 }
