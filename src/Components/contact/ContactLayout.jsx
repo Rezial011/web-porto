@@ -1,6 +1,7 @@
 import React from "react";
+import Contact from "./Contact";
 import Footer from "./footer";
-import Copyright from "./copyright";
+import Copyright from "./Copyright";
 
 export default function ContactLayout() {
     return (
