@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import tv from "../../assets/porto/tv.png"
 import foundationImg from "../../assets/porto/foundation.png"
 import movieImg from "../../assets/porto/movie-id.png"
 import titactoeImg from "../../assets/porto/tictactoe.png"
@@ -19,6 +20,16 @@ const porto = [
     },
     {
         id:2,
+        title:'TV-Shows',
+        desc:"It's a rating website for TV programs inspired by IMDb, contain information about titles, genres, and ratings. The information data is fetched from TVmaze API. (www.tvmaze.com/api)",
+        imgSrc: tv,
+        bgColor: '#f9fafc',
+        color:'mediumseagreen',
+        position:'center',
+        link:'https://tvshow-tau.vercel.app/',
+    },
+    {
+        id:3,
         title:'Movie-id',
         desc:'A movie streaming website inspired by Netflix, featuring information about films such as synopses, reviews, and ratings. Include main features such as homepage, watching page, ranking page, and supporting features like About Us and Subscription.',
         imgSrc: movieImg,
@@ -28,7 +39,7 @@ const porto = [
         link:'https://movie-id.vercel.app/',
     },
     {
-        id:3,
+        id:4,
         title:'Tic Tac Toe',
         desc:'A classic 3x3 Tic Tac Toe game that supports single player and two player modes. It features background music that can be toggled on or off, along with interactive sound effects.',
         imgSrc: titactoeImg,
@@ -38,7 +49,7 @@ const porto = [
         link:'https://rezial011.github.io/TicTacToe/',
     },
     {
-        id:4,
+        id:5,
         title:'Card Minigame',
         desc:'A simple card guessing game where players aim to find the Ace betwwen two cards. Designed for quick and fun gameplay.',
         imgSrc: cardImg,
@@ -48,7 +59,7 @@ const porto = [
         link:'https://rezial011.github.io/card_minigame/',
     },
     {
-        id:5,
+        id:6,
         title:'Bookshelf-API',
         desc:'A web server for a book management service that allows users to read, add, edit, and delete book entries, including details such as ID, date, and reading status.',
         imgSrc: books,
@@ -58,7 +69,7 @@ const porto = [
         link:'https://github.com/Rezial011/bookshelf-api',
     },
     {
-        id:6,
+        id:7,
         title:'Notes-API',
         desc:'A web server for an online note-taking service that enables users to create, read, update, and delete notes along with their details.',
         imgSrc: notes,
