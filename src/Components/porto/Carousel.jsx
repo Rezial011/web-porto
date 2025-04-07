@@ -21,11 +21,11 @@ const porto = [
     {
         id:2,
         title:'TV-Shows',
-        desc:"It's a rating website for TV programs inspired by IMDb, contain information about titles, genres, and ratings. The information data is fetched from TVmaze API. (www.tvmaze.com/api)",
+        desc:"TV program rating website inspired by IMDb, featuring show information and ratings, with additional details like synopsis, broadcast channel, schedule, cast, and seasons. The information data is fetched from TVmaze API. (www.tvmaze.com/api)",
         imgSrc: tv,
         bgColor: '#f9fafc',
         color:'mediumseagreen',
-        position:'center',
+        position:'left',
         link:'https://tvshow-tau.vercel.app/',
     },
     {
