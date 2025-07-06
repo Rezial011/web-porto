@@ -44,12 +44,12 @@ export default function SkillsLayout() {
 
     return (
         <section id="skills" className="skills pb-40 pt-30 flex flex-col items-center justify-center overflow-hidden">
-            <h1 className="title prim-red text-6xl pb-5">skills & tools</h1>
+            <h1 className="title prim-red text-6xl pb-5">Tech Tools</h1>
             <br />
             <br />
             <div className="flex flex-wrap justify-center content-start gap-15 px-23 h-75">
             {shuffledImages.map((image, index) => (
-                <img className="w-27 hover:w-28"
+                <img className="w-27 hover:scale-110"
                     key={index}
                     src={image.src}
                     title={image.name}

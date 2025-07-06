@@ -9,7 +9,7 @@ import line4 from "../../assets/contact/line (4).png"
 
 export default function Footer() {
     return (
-        <div id="footer" className="footer flex items-center justify-between px-30 py-25">
+        <div id="footer" className="footer flex items-center justify-between px-30 py-25 overflow-hidden">
             <div className="contacthori">
                 <h1 className="title prim-red text-7xl mb-5">contact</h1>
                 <p><img src={telp} alt="" />+62 859-5991-4600</p>

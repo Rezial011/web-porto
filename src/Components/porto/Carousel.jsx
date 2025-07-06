@@ -6,6 +6,7 @@ import titactoeImg from "../../assets/porto/tictactoe.png"
 import cardImg from "../../assets/porto/card.png"
 import notes from "../../assets/porto/notes.png"
 import books from "../../assets/porto/books.png"
+import kolaborasa from "../../assets/porto/kolaboraas.png"
 
 const porto = [
     {
@@ -20,6 +21,16 @@ const porto = [
     },
     {
         id:2,
+        title:'Kolaborasa',
+        desc:'A company profile website for a food event named KOLABORASA, organized by AFCO Project. It provides information about the event, such as description, past event portfolios, documentation, media partners, and a contact section for potential collaborations.',
+        imgSrc: kolaborasa,
+        bgColor: '#1e1e1e',
+        color:'white',
+        position:'center',
+        link:'https://kolaborasa-by-afco.vercel.app/',
+    },
+    {
+        id:3,
         title:'TV-Shows',
         desc:"TV program rating website inspired by IMDb, featuring show information and ratings, with additional details like synopsis, broadcast channel, schedule, cast, and seasons. The information data is fetched from TVmaze API. (www.tvmaze.com/api)",
         imgSrc: tv,
@@ -29,7 +40,7 @@ const porto = [
         link:'https://tvshow-tau.vercel.app/',
     },
     {
-        id:3,
+        id:4,
         title:'Movie-id',
         desc:'A movie streaming website inspired by Netflix, featuring information about films such as synopses, reviews, and ratings. Include main features such as homepage, watching page, ranking page, and supporting features like About Us and Subscription.',
         imgSrc: movieImg,
@@ -39,7 +50,7 @@ const porto = [
         link:'https://movie-id.vercel.app/',
     },
     {
-        id:4,
+        id:5,
         title:'Tic Tac Toe',
         desc:'A classic 3x3 Tic Tac Toe game that supports single player and two player modes. It features background music that can be toggled on or off, along with interactive sound effects.',
         imgSrc: titactoeImg,
@@ -49,7 +60,7 @@ const porto = [
         link:'https://rezial011.github.io/TicTacToe/',
     },
     {
-        id:5,
+        id:6,
         title:'Card Minigame',
         desc:'A simple card guessing game where players aim to find the Ace betwwen two cards. Designed for quick and fun gameplay.',
         imgSrc: cardImg,
@@ -59,7 +70,7 @@ const porto = [
         link:'https://rezial011.github.io/card_minigame/',
     },
     {
-        id:6,
+        id:7,
         title:'Bookshelf-API',
         desc:'A web server for a book management service that allows users to read, add, edit, and delete book entries, including details such as ID, date, and reading status.',
         imgSrc: books,
@@ -69,7 +80,7 @@ const porto = [
         link:'https://github.com/Rezial011/bookshelf-api',
     },
     {
-        id:7,
+        id:8,
         title:'Notes-API',
         desc:'A web server for an online note-taking service that enables users to create, read, update, and delete notes along with their details.',
         imgSrc: notes,

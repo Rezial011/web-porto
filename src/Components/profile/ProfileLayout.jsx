@@ -6,7 +6,7 @@ export default function ProfileLayout() {
     return (
         <section id="profile" className="profile flex gap-10 py-19 px-25">
             <div className="p-10 pe-20 flex flex-col justify-center">
-                <h1 className="title text-5xl mb-15">quick <br />introduce</h1>
+                <h1 className="title text-5xl mb-15 text-center md:text-left">quick <br />introduce</h1>
                 <img src={line3} alt="" className="w-30 mb-3"/>
                 <img src={line4} alt="" className="w-50 hidden"/>
             </div>
