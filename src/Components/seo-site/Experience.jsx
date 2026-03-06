@@ -42,7 +42,7 @@ export default function Experience() {
           </div>
           <div>
             <div
-              className={`bg-gray-100 p-3 lg:p-4 rounded-lg md:rounded-xl lg:rounded-3xl relative overflow-hidden transition-all duration-300 ease-in-out`}
+              className={`bg-gray-100 p-3 lg:p-4 rounded-lg md:rounded-xl lg:rounded-3xl relative overflow-hidden transition-all duration-300 ease-in-out cursor-pointer hover:brightness-95`}
               onClick={() => setOpen(!open)}
             >
               <svg
