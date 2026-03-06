@@ -1,5 +1,4 @@
 import React from "react";
-
 import { articles, offPageContent } from "./artikel";
 
 export default function Article() {
