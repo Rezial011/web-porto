@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "./Experience";
-import Article from "./article";
+import Article from "./Article";
 import ContactLayout from "../contact/ContactLayout";
 
 export default function SeoSite() {
