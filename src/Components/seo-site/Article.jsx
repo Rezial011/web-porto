@@ -6,7 +6,6 @@ export default function Article() {
     <section>
       <br />
       <br />
-      <br />
       <div className="flex flex-col items-center">
         <hr className="border-gray-300 -mb-5 w-[90%] " />
         <span className="sec-black text-sm p-2 bg-white italic">Article</span>

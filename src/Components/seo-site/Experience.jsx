@@ -22,6 +22,7 @@ export default function Experience() {
   ];
   return (
     <div>
+      <br />
       <h2 className="prim-red title text-xl">SEO Experiences</h2>
       {experiences.map((experience) => (
         <div key={experience.id}>
