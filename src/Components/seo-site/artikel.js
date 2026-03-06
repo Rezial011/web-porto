@@ -1,0 +1,126 @@
+const articles = [
+    {
+        id: 1,
+        title: 'Rekomendasi 7 Modem 5G Portable Wajib Beli untuk Kecepatan Internet Super Kilat',
+        metaDesc: 'Ingin internet super ngebut? Temukan 7 modem 5G portable terbaik 2025 untuk kerja remote, gaming, dan traveling tanpa lemot!',
+        keyword: 'Modem 5G',
+        url: 'https://indotechglobal.com/blog/modem-5g/',
+    },
+    {
+        id: 2,
+        title: 'Harga Laptop Bekas vs Baru – Mana yang Lebih Worth It? Ini 4 Poin Untung Ruginya!',
+        metaDesc: 'Harga laptop di pasar teknologi selalu berubah dari waktu ke waktu. Setiap tahun, produsen merilis model baru dengan peningkatan spesifikasi dan fitur,',
+        keyword: 'Harga laptop',
+        url: 'https://indotechglobal.com/blog/harga-laptop-bekas-vs-baru/',
+    },
+    {
+        id: 3,
+        title: 'Tes Kecepatan Kendaraan: Ini 5 Cara Mudah untuk Mengukur Kecepatan Mobil atau Motor',
+        metaDesc: 'Mengetahui seberapa cepat kendaraan melaju bukan sekadar soal rasa ingin tahu. Dalam praktik sehari-hari, informasi ini sangat penting untuk keselamatan berkendara, uji performa mesin, hingga kepatuhan terhadap aturan lalu lintas',
+        keyword: 'Tes kecepatan kendaraan',
+        url: 'https://muliaberkahtamaabadi.com/blog/tes-kecepatan-kendaraan/',
+    },
+    {
+        id: 4,
+        title: 'Panduan Memilih Ukuran Tabung Kompresor! 100 Liter VS 500 Liter untuk Industri Anda',
+        metaDesc: 'Ukuran tabung yang terlalu kecil membuat mesin sering hidup-mati (frequent cycling), sedangkan tabung terlalu besar bisa memperlambat waktu pengisian dan meningkatkan beban motor. Maka, memahami perbandingan tabung kompresor menjadi hal penting sebelum membeli',
+        keyword: 'Ukuran Tabung Kompresor',
+        url: 'https://rehobotsuksesmandiri.com/blog/tips-memilih-ukuran-tabung-kompresor/',
+    },
+    {
+        id: 5,
+        title: 'Pembuatan IPAL Hemat Biaya! Cek 3 Metode Murah dan Tercepat',
+        metaDesc: '3 Metode Pembuatan IPAL Paling Hemat dan Cepat · 1. Sistem IPAL Biofilter Modular · 2. Sistem IPAL Beton Bertingkat · 3. Sistem IPAL Portable Fiberglass.',
+        keyword: 'Metode pembuatan IPAL',
+        url: 'https://rehobotsuksesmandiri.com/blog/pembuatan-ipal/',
+    },
+    {
+        id: 6,
+        title: 'Kapasitas Truk Engkel: Jangan Tertipu! Inilah 4 Perbedaan Kunci Antara Truk Engkel dan Colt Diesel Double (CDD)',
+        metaDesc: 'CDD: Dapat mengangkut beban lebih besar, sekitar 4 – 6 ton. Dampak pada Legalitas GVW (Gross Vehicle Weight): Truk Engkel: GVW umumnya 8 ton',
+        keyword: 'Kapasitas truk engkel',
+        url: 'https://muliaberkahtamaabadi.com/blog/kapasitas-truk-engkel/',
+    },
+    {
+        id: 7,
+        title: 'Panduan Lengkap 5 Ciri SSD External Solid State Drive Asli, Bukan HDD Berkedok SSD!',
+        metaDesc: 'Jangan tertipu dengan SSD eksternal palsu! Pelajari 5 ciri SSD External asli agar Anda mendapat performa cepat & daya tahan terbaik untuk penyimpanan data.',
+        keyword: 'Ciri ciri SSD External',
+        url: 'https://indotechglobal.com/blog/ciri-ssd-external-asli-vs-ssd-palsu/',
+    },
+    {
+        id: 8,
+        title: '7 Pilihan Monitor Portable Terbaik! Wajib Dibawa untuk Kerja Remote dan Travelling',
+        metaDesc: 'Berikut daftar monitor portable terbaik tahun 2025 berdasarkan riset pasar, ulasan teknis, serta efisiensi harga dan fitur.',
+        keyword: 'Monitor portable',
+        url: 'https://indotechglobal.com/blog/monitor-portable-terbaik/',
+    },
+    {
+        id: 9,
+        title: 'Apa itu Memory Card A2? Kenali 4 Perbedaan Kunci Memory A2 & A1, Cocok untuk Main Game?',
+        metaDesc: 'Berbeda dari kartu biasa yang hanya fokus pada kecepatan sekuensial (misalnya menulis file video besar), kartu A2 dirancang untuk mempercepat akses data kecil',
+        keyword: 'Memory card A2',
+        url: 'https://indotechglobal.com/blog/memory-card-a2-vs-a1/',
+    },
+    {
+        id: 10,
+        title: '7 Seri Tablet iPad Terbaik untuk Mahasiswa! Desain Compact dan Profesional',
+        metaDesc: 'Cari tablet iPad terbaik untuk kuliah dan produktivitas? Inilah 7 seri iPad terbaik untuk mahasiswa dengan desain elegan, performa cepat',
+        keyword: 'Tablet Ipad',
+        url: 'https://indotechglobal.com/blog/tablet-ipad-terbaik-untuk-mahasiswa/',
+    },
+]
+
+const offPageContent = [
+    {
+        id: 1,
+        image: 'https://media.licdn.com/dms/image/v2/D5622AQGdksE7mmnnrg/feedshare-shrink_800/B56ZoAtcVtI8Ag-/0/1760948509100?e=1774483200&v=beta&t=eSIjzVra7FYtlDbG2Wg_libAKDRyyJ5FECiagqB0ugI',
+        title: '✨ OLED vs IPS! Dua Raja Monitor yang Lagi Panas di 2025!',
+        metaDesc: 'LinkedIn post',
+        url: 'https://www.linkedin.com/posts/cvindotechglobal_monitoroled-monitorips-pengadaanbarangjasa-activity-7385953383037378560-Rs_g?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZG39MBA88vTCj83yFbXk5mg79f-YHG2yc',
+    },
+    {
+        id: 2,
+        image: 'https://media.licdn.com/dms/image/v2/D5622AQEr4QlPEDmxvg/feedshare-shrink_800/B56ZoLCxqAJYAg-/0/1761121874305?e=1774483200&v=beta&t=ifNcdbkxaiOifYi0KESe9lfpLyUj0PETzr0_ClQq_Iw',
+        title: 'Webcam bukan sekadar kamera, tapi wajah profesional Anda di dunia digital!',
+        metaDesc: 'LinkedIn post',
+        url: 'https://www.linkedin.com/posts/cvindotechglobal_webcamterbaik2025-teknologikantor-pengadaanbarangjasa-activity-7386680559349051392-Q0yZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZG39MBA88vTCj83yFbXk5mg79f-YHG2yc',
+    },
+    {
+        id: 3,
+        image: 'https://media.licdn.com/dms/image/v2/D5622AQHA_2VlwV-GKw/feedshare-shrink_800/B56ZoqBz09I0Ak-/0/1761641713636?e=1774483200&v=beta&t=PNd_-o2o33WwrHHqx6J9INOs691rbDePchPgNjVmvN8',
+        title: '⌨️ Tahukah Anda? Di kantor dan lab sekolah, produktivitas sering bergantung pada satu hal sederhana: keyboard yang nyaman dan tahan lama.',
+        metaDesc: 'LinkedIn post',
+        url: 'https://www.linkedin.com/posts/cvindotechglobal_keyboardkomputer-devicekantor-pengadaanbarangjasa-activity-7388860895323598848-sYda?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZG39MBA88vTCj83yFbXk5mg79f-YHG2yc',
+    },
+    {
+        id: 4,
+        image: 'https://lh3.googleusercontent.com/geougc/AF1QipMeP6UwpQCvSZk4gTaUKK_Bh3T21jWOnk5rOIFJ=w573-h573-p-no',
+        title: 'Solusi Klik: Penyedia Drone Terpercaya di E-Katalog LKPP',
+        metaDesc: 'Google Maps post',
+        url: 'https://share.google/7cqvAQPLMkYEMp2AN',
+    },
+    {
+        id: 5,
+        image: 'https://lh3.googleusercontent.com/geougc/AF1QipNAO9E6J1DMcSS7jgqyiDNzeL7SOLADG8ZQyn-M=w573-h573-p-no',
+        title: '5 Alasan Memilih Interactive Display Solusi Klik di Indonesia',
+        metaDesc: 'Google Maps post',
+        url: 'https://share.google/SptZEaWdKAehLo9S0',
+    },
+    {
+        id: 6,
+        image: 'https://lh3.googleusercontent.com/geougc/AF1QipNwpQciIFob6H3lFKkdRwPE3V_lGKU5lK4XgT-Q=w573-h573-p-no',
+        title: 'Solusi Klik: Penyedia CCTV Terpercaya di E-Katalog LKPP',
+        metaDesc: 'Google Maps post',
+        url: 'https://share.google/4Ue7dNV8dq8fpeuDE',
+    },
+    {
+        id: 7,
+        image: 'https://lh3.googleusercontent.com/geougc/AF1QipMocWpuUA5W3-r4lkp1pvat3SEtBAocBvQLwsuH=w573-h573-p-no',
+        title: 'Solusi Klik: Penyedia AC Terpercaya di E-Katalog LKPP',
+        metaDesc: 'Google Maps post',
+        url: 'https://share.google/VEuPGcVtD62wxu3XR',
+    },
+]
+
+export { articles, offPageContent }

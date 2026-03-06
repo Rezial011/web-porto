@@ -5,6 +5,7 @@ import SkillsLayout from './Components/skills/SkillsLayout'
 import PortoLayout from './Components/porto/PortoLayout'
 import ContactLayout from './Components/contact/ContactLayout'
 import NavbarLayout from './Components/navbar/NavbarLayout'
+import SeoSite from './Components/seo-site/SeoSite'
 
 function App() {
 
